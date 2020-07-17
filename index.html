@@ -8,9 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="Style/css/style.css">
-    <link rel="stylesheet" href="Style\fontawesome-free\css\all.css">
+    <link rel="stylesheet" href="Style/fontawesome-free/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="Style/css/animate.css">
+    
     <title>Hello, world!</title>
   </head>
   <body>
@@ -41,14 +42,14 @@
       <section id="header">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">
               <img src="Style\img\animaticvfx_logo5.png" alt="logo" class="img-fluid">
               <h2>WE ARE MOTION GRAPICH DESIGHNER</h2>
               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor dapibus, commodo justo sed, fermentum ante.  non dapibus diam mattis eget. </p>
               <p class="hidden-sm-down d-none d-md-block">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis imperdiet ex velit, quis interdum neque egestas nec. Phasellus suscipit pellentesque metus in cursus.</p>
 
             </div>
-            <div class="col-md-6 header-right d-none d-md-block ">
+            <div class="col-md-6 header-right d-none d-md-block wow fadeIn" data-wow-delay="1.5s" data-wow-duration="2s">
               <p >Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis imperdiet ex velit, quis interdum neque egestas nec. Phasellus suscipit pellentesque metus in cursus.</p>
               <form  action="index.html" method="post">
                 <fieldset class="form-group">
@@ -65,7 +66,7 @@
 
             </div>
           </div>
-          <div class="row">
+          <div class="row wow swing" data-wow-delay="2s" >
             <div class="col text-center">
               <a href="#social"> <i class="fa fa-chevron-down fa-3x"></i></a>
 
@@ -477,10 +478,100 @@
 
        <!-- PRICING END  -->
 
+
+       <!-- CONTACT -->
+
+       <section id="contact">
+         <div class="container text-center">
+           <div class="row">
+             <div class="col">
+               <h2>Contact us</h2>
+               <hr width="30%">
+               <p>Need to get in touch? Fill in the form below for more informaion:</p>
+
+
+             </div>
+
+           </div>
+           <div class="row">
+             <div class="col-md-8 mx-auto">
+               <form class="" action="index.html" method="post">
+                 <fieldset class="form-group"><input type="email"  class="form-control form-control-sm" id="email" placeholder="email..." ></fieldset>
+                 <fieldset class="form-group"><input type="text"  class="form-control form-control-sm" id="name" placeholder="name..." ></fieldset>
+                 <fieldset class="form-group"><input type="text"  class="form-control form-control-sm" id="subject" placeholder="subject..." ></fieldset>
+
+                 <fieldset class="form=group"><textarea class="form-control form-control-sm" id="messge" placeholder="message..." rows="3"></textarea></fieldset>
+                 <button type="submit" class="btn btn-outline-info btn-block">submit</button>
+
+
+
+               </form>
+
+             </div>
+
+           </div>
+
+         </div>
+
+       </section>
+
+       <!-- CONTACT END -->
+
+       <!-- FOOTER -->
+       <section id="footer">
+         <div class="container">
+           <div class="row">
+             <div class="col-md-8 col-sm-6">
+               <h2>About Animatic Vfx</h2>
+               <p>Ut at magna congue mauris maximus blandit tincidunt id elit. Sed sodales erat sed libero consequat, vitae vehicula nulla commodo. Nulla id quam sit amet dui placerat fringilla. Nullam vehicula non arcu ut convallis. Sed tincidunt fringilla felis a consequat. Mauris sed diam quis nibh congue iaculis s</p>
+               <p>Ut at magna congue mauris maximus blandit tincidunt id elit. Sed sodales erat sed libero consequat, vitae vehicula nulla commodo. Nulla id quam sit amet dui placerat fringilla. Nullam vehicula non arcu ut convallis. Sed tincidunt fringilla felis a consequat. Mauris sed diam quis nibh congue iaculis s</p>
+               <ul class="list-inline">
+                 <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                 <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                 <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                 <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                 <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                 <li class="list-inline-item"><a href="#"><i class="fa fa-rss"></i></a></li>
+               </ul>
+
+             </div>
+             <div class="col-md-4 col-sm-6">
+               <h3>Say Hello</h3>
+               <ul class="list-unstyled">
+                 <li><p><strong><i class="fa fa-map-marker-alt"></i>Adress:</strong> Location, Street, Code</p></li
+                   <li><p><strong><i class="fa fa-envelope-square"></i>Email:</strong><a href="#"> info@randomeemail.com</a></p></li>
+                    <li><p><strong><i class="fa fa-phone"></i>Phone:</strong><a href="#"> 000-0000 000</a></p></li>
+               </ul>
+
+             </div>
+
+           </div>
+           <div class="row">
+             <div class="col">
+               <p>&copy; 2020 Designeh by redshit</p>
+
+             </div>
+
+           </div>
+
+         </div>
+
+       </section>
+
+
+
+
+       <!-- FOOTER END -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="Style/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
   </body>
 </html>

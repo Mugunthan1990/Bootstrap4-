@@ -16,6 +16,11 @@ body, html {
   #header {
     text-align: center;
   }
+  #header img{
+      margin:20% 0 auto 0;
+  }
+
+
   #social{
     text-align: center;
   }
@@ -27,6 +32,9 @@ body, html {
   }
   #who img {
     margin-top: 15%;
+  }
+  #footer {
+    text-align: center;
   }
 
 }
@@ -231,4 +239,31 @@ body, html {
 
 #pricing .card{
   margin-top: 20px;
+}
+
+/* CONTACT */
+
+#contact {
+  padding: 5rem 0;
+
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 2rem 0;
+  background-color: #484848;
+  color:white;
+}
+
+#footer .fa, .fab{
+  color: white;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer .fa, .fab{
+  padding: 0 5px;
 }
